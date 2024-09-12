@@ -4,9 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Todo.co.ke</title>
+    <title>ToDo.co.ke</title>
   </head>
   <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To Do App <img src="./images/clip.png" alt="Logo" /></h2>
+        <div class="data-box">
+          <input type="text" placeholder="Add Task Here" id="input-box" />
+          <button onclick="addMe()">Add task</button>
+        </div>
+        <div id="my-list">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
     <script src="scripts.js"></script>
   </body>
 </html>

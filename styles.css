@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  padding: 100px;
+  background: linear-gradient(1500deg, hsl(101, 93%, 16%), hsl(248, 97%, 15%));
+  width: 100%;
+  min-height: 100vh;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 540px;
+  justify-items: center;
+  justify-content: center;
+  background: white;
+  padding: 12px 8px 12px 8px;
+  margin: 100px auto 20px;
+  border-radius: 20px;
+}
+
+.todo-app h2 {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.todo-app img {
+  width: 30px;
+  height: 30px;
+}
+
+.data-box {
+  margin: 10px auto 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: hsl(0, 0%, 82%);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-box input {
+  height: 40px;
+
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  outline: none;
+  border: 0;
+  background: transparent;
+  width: 100%;
+}
+.data-box button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  background: hsl(246, 85%, 18%);
+  color: white;
+}
+
+.my-list ul {
+  padding: 10px;
+  list-style: none;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px auto 5px;
+  margin-left: 30px;
+}
